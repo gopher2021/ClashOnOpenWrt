@@ -1,5 +1,5 @@
 tmp_folder_name="/tmp/clash"
-download_url="https://raw.githubusercontent.com/peanut996/ClashOnOpenWrt/master/clash.tar.gz"
+download_url="https://raw.githubusercontent.com/gopher2021/ClashOnOpenWrt/master/clash.tar.gz"
 
 iptables -I INPUT -p tcp --dport 7890 -j ACCEPT
 iptables -I INPUT -p tcp --dport 8890 -j ACCEPT
